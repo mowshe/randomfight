@@ -2,7 +2,6 @@ import React from 'react';
 
 class FetchUser extends React.PureComponent {
 
-
   state = {
     loading:true,
     person:null,
@@ -10,8 +9,7 @@ class FetchUser extends React.PureComponent {
     max:100,
     hp: null,
     attack:null,
-    Defense:null
-
+    Defense:null    
   };
 
   async componentDidMount() {
