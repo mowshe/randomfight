@@ -11,6 +11,7 @@ class FetchUser extends React.PureComponent {
     hp: null,
     attack:null,
     Defense:null
+
   };
 
   async componentDidMount() {
